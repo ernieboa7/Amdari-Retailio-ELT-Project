@@ -1,0 +1,78 @@
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+
+# Virtual Environment (CRITICAL)
+
+venv/
+.env
+.env.*
+*.env
+
+
+# Logs & Output Files
+
+*.log
+weekly_output.txt
+output/
+logs/
+
+
+# Data Files (Raw / Sensitive)
+
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+
+# Credentials / Secrets
+
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+credentials/
+snowflake_credentials.*
+
+
+# OS / Editor Files
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+
+# Git & CI
+
+.git/
+.gitmodules
+.gitconfig
+
+
+# Jupyter (if ever added)
+
+.ipynb_checkpoints/
+
+
+# Windows
+desktop.ini
+
+
+# Snowflakes configuration setups
+Snowflakes/
